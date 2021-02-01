@@ -54,7 +54,7 @@ That's all!
 
 You can customize some config via `props`
 
-> Please noted that if you want to set width, just set css style to the component's parent. This component is a `block` hence it will extend to fullfill it's parent width.
+> Please noted that if you want to set width, just set css style to the component's parent. This component is a `block` hence it will extend itself to fullfill it's parent width.
 
 #### Config height
 
