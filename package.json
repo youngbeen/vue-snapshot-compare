@@ -1,0 +1,24 @@
+{
+  "name": "@youngbeen/vue-snapshot-compare",
+  "version": "0.1.0",
+  "description": "A snapshot comparing vue component",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/youngbeen/vue-snapshot-compare"
+  },
+  "keywords": [
+    "snapshot",
+    "compare",
+    "image",
+    "preview",
+    "component",
+    "vue"
+  ],
+  "author": "youngbeen",
+  "license": "ISC"
+}
