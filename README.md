@@ -58,18 +58,18 @@ You can customize some config via `props`
 
 #### Config height
 
-You can set an exact height by `heightLimit`, the unit is `px`. Default height limit is none, height is auto. 
+Set an exact height by `height-limit`, the unit is `px`. Default height limit is none, height is auto. 
 
 ```vue
 <snapshot-compare
   :bottom-image="bottomImage"
   :cover-image="coverImage"
-  :heightLimit="300"></snapshot-compare>
+  :height-limit="300"></snapshot-compare>
 ```
 
 #### Config seperator style
 
-You can set seperator style by `seperator`. Valid values are `slash` and `vertical`, default value is `slash`. 
+Set seperator style by `seperator`. Valid values are `slash` and `vertical`, default value is `slash`. 
 
 ```vue
 <snapshot-compare
@@ -80,18 +80,18 @@ You can set seperator style by `seperator`. Valid values are `slash` and `vertic
 
 #### Config seperator color
 
-You can set seperator color by `seperatorColor`. Valid value accept all valid css values(e.g. `red`, `#fff`, `transparent`). Default value is `#fff`. 
+Set seperator color by `seperator-color`. Valid value accept all valid css values(e.g. `red`, `#fff`, `transparent`). Default value is `#fff`. 
 
 ```vue
 <snapshot-compare
   :bottom-image="bottomImage"
   :cover-image="coverImage"
-  :seperatorColor="'red'"></snapshot-compare>
+  :seperator-color="'red'"></snapshot-compare>
 ```
 
 #### Config seperator initial position
 
-You can set initial seperator position by `position`. Valid values are numbers between `0~1`( `0` stands for left edge while `1` stands for right edge). Default value is `0.5` which means middle. 
+Set initial seperator position by `position`. Valid values are numbers between `0~1`( `0` stands for left edge while `1` stands for right edge). Default value is `0.5` which means middle. 
 
 ```vue
 <snapshot-compare
